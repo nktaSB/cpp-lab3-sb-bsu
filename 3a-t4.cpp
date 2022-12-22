@@ -1,36 +1,22 @@
-      #include<iostream>
-#include<limits>
-using namespace std;
-
+#include<iostream> 
+using namespace std; 
 int main()
 {
-       int a, i = 1, sum_a = 0, number;
-
- cout << " Enter the amount of integers to sum = "; cin >> a;
-
- cin>>a;
- while(1)
-{
-if (cin.fail())
-{
-cin.clear();
-cin.ignore(numeric_limits<streamsize>::max(),'\n');
-cout<<"You have entered wrong input"<<endl;
-cin>>a;
-}
-if(!cin.fail())
-break;
-}
- if (a == 0) cout << "There is nothing to sum, "; 
-    else
+    int k, i = 1, sum_k = 0, number;
+    cout << " Enter the amount of integers to sum = "; cin >> k;
+    if (k == 0) 
+    else / use the "else" statement for non-integer input
+{ 
     do 
 {
     cout << "Enter integer nr. " << i << ": "; 
     cin >> number;
-    sum_a += number; i++;
+    sum_k += number; i++;
 } 
-    while (i <= a);
-    cout << " The total sum of " << a << " integers is: "  << sum_a; //result
+    while (i <= k);
+    cout << " The total sum of " << k << " integers is: "  << sum_k; / show the result
     return 0;
     
 }
+}
+
