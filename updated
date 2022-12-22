@@ -4,7 +4,7 @@ int main()
 {
     int k, i = 1, sum_k = 0, number;
     cout << " Enter the amount of integers to sum = "; cin >> k;
-    if (k == 0) 
+    if (k == 0) cout << "There is nothing to sum"; / add "if" statement
     else / use the "else" statement for non-integer input
 { 
     do 
@@ -19,4 +19,3 @@ int main()
     
 }
 }
-
